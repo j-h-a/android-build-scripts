@@ -33,8 +33,8 @@ Insets or rectangle:
 
   Insets and rectangles are specified as four integer numbers separated by a
   dash (-). For insets the order is: top-right-bottom-left, for rectangles the
-  order is x-y-width-height. For example insets of 2-4-6-8 on a 48x32 pixel
-  image are equivalent to a rectangle of 8-2-24-36.
+  order is x-y-width-height. For example insets of 2-4-6-8 on a 32x32 pixel
+  image are equivalent to a rectangle of 8-2-20-24.
 
 Usage examples:
 $0 -i button.png -s 8-8-8-8
